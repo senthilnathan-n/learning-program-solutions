@@ -1,0 +1,26 @@
+Big O Notation:
+Big O notation is used to describe the performance or complexity of an algorithm in terms of input size (n). It provides an upper bound on the time or space an algorithm takes to run, helping us evaluate its scalability and efficiency.
+
+Purpose in Algorithm Analysis:
+It allows us to compare algorithms independently of hardware.
+
+It focuses on the growth rate of an algorithm as input size increases.
+
+Search Operation Scenarios:
+Best Case:
+
+Linear Search: O(1) — Target found at the beginning.
+
+Binary Search: O(1) — Target found at the middle on the first check.
+
+Average Case:
+
+Linear Search: O(n) — Target is in the middle of the array.
+
+Binary Search: O(log n) — Target found after several comparisons.
+
+Worst Case:
+
+Linear Search: O(n) — Target is at the end or not found.
+
+Binary Search: O(log n) — Target not found after repeated halving.

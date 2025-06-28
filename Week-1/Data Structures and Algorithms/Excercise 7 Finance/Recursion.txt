@@ -1,0 +1,13 @@
+What is Recursion?
+Recursion is a programming technique where a function calls itself to solve smaller instances of a problem. It continues breaking down the problem until it reaches a base case.
+
+How Recursion Simplifies Problems:
+Breaks complex problems into smaller, manageable sub-problems.
+
+Reduces code complexity for repetitive, self-similar tasks (e.g., calculating compound interest over years).
+
+Offers an elegant and intuitive way to express mathematical formulas, such as:
+
+Future Value = Principal × (1 + Interest Rate)ⁿ
+
+which naturally maps to recursive implementation.

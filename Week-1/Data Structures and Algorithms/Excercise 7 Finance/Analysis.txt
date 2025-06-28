@@ -1,0 +1,15 @@
+Time Complexity of Recursive Algorithm:
+The recursive function predictFuturevalue is called once for each year, decrementing years until it reaches 0.
+
+Hence, the time complexity is O(n), where n is the number of years.
+
+Optimization Suggestion:
+While the current implementation is efficient for small n, deeper recursion could lead to stack overflow for large values of years.
+
+Optimizations:
+
+Tail Recursion: Rewrite the function to use tail recursion (if the language/compiler supports tail call optimization).
+
+Memoization: Store results of subproblems in a cache to avoid redundant calculations.
+
+Iterative Approach: Replace recursion with a loop to eliminate function call overhead and improve memory efficiency.
